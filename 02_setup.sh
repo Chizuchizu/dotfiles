@@ -1,3 +1,5 @@
+mkdir ~/.config/nvim
+
 # nvim
 ln -sf ~/github/dotfiles/nvim/dein.toml ~/.config/nvim/dein.toml
 ln -sf ~/github/dotfiles/nvim/dein_lazy.toml ~/.config/nvim/dein_lazy.toml
