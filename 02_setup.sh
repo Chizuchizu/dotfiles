@@ -1,4 +1,3 @@
-mkdir ~/.config/nvim
 
 # nvim
 ln -sf ~/github/dotfiles/nvim/dein.toml ~/.config/nvim/dein.toml
