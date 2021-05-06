@@ -1,0 +1,1 @@
+mkdir ~/.config/nvim
