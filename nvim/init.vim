@@ -75,14 +75,14 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/yuma/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=$HOME/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-call dein#begin('/home/yuma/.cache/dein')
+call dein#begin('$HOME/.cache/dein')
 
 " Let dein manage dein
 " Required:
-call dein#add('/home/yuma/.cache/dein/repos/github.com/Shougo/dein.vim')
+call dein#add('$HOME/.cache/dein/repos/github.com/Shougo/dein.vim')
 
 " Add or remove your plugins here like this:
 call dein#add('Shougo/neosnippet.vim')
@@ -170,6 +170,4 @@ nnoremap <silent> [TABCMD]o :<c-u>tabonly<cr>
 nnoremap <silent> [TABCMD]s :<c-u>tabs<cr>
 
 
-" pythonの実行
-autocmd BufNewFile,BufRead *.py nnoremap <C-q> :!python3 %  
 

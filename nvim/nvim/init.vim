@@ -1,0 +1,1 @@
+/Users/ochiyuma/github/dotfiles/nvim/init.vim
