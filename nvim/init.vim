@@ -51,7 +51,8 @@ set softtabstop=4
 set expandtab
 " <Tab>が対応する空白の数
 set tabstop=4
-
+" 相対行表示
+set relativenumber
 " インクリメント、デクリメントを16進数にする(0x0とかにしなければ10進数です。007をインクリメントすると010になるのはデフォルト設定が8進数のため)
 set nf=hex
 " マウス使えます
