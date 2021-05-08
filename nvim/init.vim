@@ -171,4 +171,5 @@ nnoremap <silent> [TABCMD]o :<c-u>tabonly<cr>
 nnoremap <silent> [TABCMD]s :<c-u>tabs<cr>
 
 
+let g:python3_host_prog = '/usr/bin/python3'
 
