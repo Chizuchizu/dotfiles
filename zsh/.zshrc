@@ -116,3 +116,7 @@ export EDITOR=vim
 if [ $SHLVL = 1 ]; then
   tmux
 fi
+
+alias typora='open -a "Typora"'
+
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/Julia-1.6.app/Contents/Resources/julia/bin
