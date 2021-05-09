@@ -195,3 +195,17 @@ hook_add = '''
 
 '''
 
+[[plugins]]  # airlineのかわり
+repo = "itchyny/lightline.vim"
+hook_add = '''
+  set laststatus=2
+  set showmode
+  set showcmd
+  set ruler
+'''
+
+[[plugins]]  # インデントの可視化
+repo = "Yggdroot/indentLine"
+
+
+
