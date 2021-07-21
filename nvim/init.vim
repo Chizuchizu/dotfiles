@@ -61,9 +61,9 @@ set nf=hex
 " インサートモードの時に C-j でノーマルモードに戻る
 imap <C-j> <esc>
 " [ って打ったら [] って入力されてしかも括弧の中にいる(以下同様)
-imap [ []<left>
-imap ( ()<left>
-imap { {}<left>
+" imap [ []<left>
+" imap ( ()<left>
+" imap { {}<left>
 
 " ２回esc を押したら検索のハイライトをヤメる
 nmap <Esc><Esc> :nohlsearch<CR><Esc>

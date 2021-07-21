@@ -13,26 +13,6 @@ hook_add = '''
   colorscheme gruvbox
 '''
 
-[[plugins]]  # Gitの差分表示
-repo = 'airblade/vim-gitgutter'
-hook_add = '''
-  set signcolumn=yes
-  set updatetime=1000
-  nnoremap [gitgutter] <Nop>
-  nmap <C-h> [gitgutter]
-  nmap [gitgutter]j <Plug>GitGutterNextHunk
-  nmap [gitgutter]k <Plug>GitGutterPrevHunk
-  nmap [gitgutter]u <Plug>GitGutterUndoHunk
-'''
-
-[[plugins]]  # gitが使える超便利ツール
-repo = 'tpope/vim-fugitive'
-hook_add = '''
-  command Gst :Gstatus
-  command Gdf :Gdiff
-  command Gbl :Gblame
-'''
-
 [[plugins]]  # 魔術（すべての根幹）
 repo = 'Shougo/denite.nvim'
 hook_add = '''
