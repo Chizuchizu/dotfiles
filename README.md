@@ -78,6 +78,10 @@ dでも同じ
 - 削除: x
 - 時計の表示: t
 
+### lazygit
+
+https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md
+
 ## 参考
 
 - https://github.com/fkubota/dotfiles
